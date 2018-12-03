@@ -1,0 +1,171 @@
+<!-- drag_zmove used, e.g. in learnin modules to drag layout borders -->
+<div id="drag_zmove"></div>
+<div id="ilAll">
+    <div id="ilTopBar" class="ilTopBar">
+        <div class="container">
+            <div class="row">
+                <div class="ilTopTitle">ILIAS 5.3 Evaluation</div>
+                <ul id="ilTopBarNav" class="">
+                    <li class="dropdown">
+                        <a id="mm_lang_sel" href="#" class="dropdown-toggle" data-toggle="dropdown">Language
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="">
+                                <a href="https://test53.ilias.de/login.php?target=cat_31&amp;client_id=test53&amp;cmd=force_login&amp;lang=ar" target="_top">العربية</a>
+                            </li>
+                            <li class="">
+                                <a href="https://test53.ilias.de/login.php?target=cat_31&amp;client_id=test53&amp;cmd=force_login&amp;lang=de" target="_top">Deutsch</a>
+                            </li>
+                            <li class="">
+                                <a href="https://test53.ilias.de/login.php?target=cat_31&amp;client_id=test53&amp;cmd=force_login&amp;lang=en" target="_top">English</a>
+                            </li>
+                            <li class="">
+                                <a href="https://test53.ilias.de/login.php?target=cat_31&amp;client_id=test53&amp;cmd=force_login&amp;lang=es" target="_top">Español</a>
+                            </li>
+                            <li class="">
+                                <a href="https://test53.ilias.de/login.php?target=cat_31&amp;client_id=test53&amp;cmd=force_login&amp;lang=fr" target="_top">Français</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="ilMainHeader">
+        <header class="container">
+            <div id="il_startup_logo" class="row">
+                <img class="hidden-xs noMirror" src="ilias_loginpage-Dateien/HeaderIcon.svg" alt="Logo">
+                <img class="visible-xs-inline-block noMirror" src="ilias_loginpage-Dateien/HeaderIconResponsive.svg" alt="Logo">
+            </div>
+        </header>
+    </div>
+    <div class="ilMainMenu">
+        <div class="container">
+            <div class="row">
+                <nav id="ilTopNav" class="navbar navbar-default" role="navigation"></nav>
+            </div>
+        </div>
+    </div>
+    <div id="mainspacekeeper" class="container">
+        <div class="row" style="position: relative;">
+            <div id="fixed_content" class=" ilContentFixed">
+                <div id="mainscrolldiv" class="ilStartupFrame container">
+                    <div class="ilMessageBox">
+                    </div>
+                    <div>
+                        <a class="small" id="ilPageShowAdvContent" style="display:none; text-align:right;" href="#">
+                            <span>Show Advanced Knowledge</span>
+                            <span>Hide Advanced Knowledge</span>
+                        </a>
+                        <div class="ilc_Paragraph ilc_text_block_Standard">
+                            <span xmlns:xhtml="http://www.w3.org/1999/xhtml" class="ilc_text_inline_Strong">Welcome to the ILIAS 5.3 Evaluation Platform!</span>
+                            <br>&nbsp;
+                            <br>Please register if you do not have an account yet.
+                        </div>
+                        <div xmlns:xhtml="http://www.w3.org/1999/xhtml" style="clear:both;">
+                        </div>
+                    </div>
+                    <div class="alert alert-danger" role="alert">
+                        <h5 class="ilAccHeadingHidden"><a id="il_message_focus" name="il_message_focus">Fehlermeldung</a></h5>
+                        Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.</div>
+                    <div class="ilStartupSection">
+                        <p>
+                        </p>
+                        <p>
+                        </p>
+                        <form id="form_" role="form" class="form-horizontal preventDoubleSubmission" name="formlogin" action="ilias.php?lang=en&amp;target=cat_31&amp;client_id=test53&amp;cmd=post&amp;cmdClass=ilstartupgui&amp;cmdNode=7m&amp;baseClass=ilStartUpGUI&amp;rtoken="
+                            method="post" novalidate="novalidate">
+                            <div class="form-horizontal">
+                                <div class="ilFormHeader">
+                                    <h3 class="ilHeader">
+                                        <a name="il_form_top"></a>Login to ILIAS</h3>
+                                    <div class="ilFormCmds">
+                                    </div>
+                                    <div class="ilHeaderDesc"></div>
+                                </div>
+                                <div class="form-group" id="il_prop_cont_username">
+                                    <label for="username" class="col-sm-3 control-label">Username
+                                        <span class="asterisk">*</span>
+                                    </label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" id="username" maxlength="200" name="username" required="required" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group" id="il_prop_cont_password">
+                                    <label for="password" class="col-sm-3 control-label">Password
+                                        <span class="asterisk">*</span>
+                                    </label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" size="20" id="password" maxlength="" name="password" required="required" type="password">
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="ilFormFooter clearfix">
+                                    <div class="col-sm-6 ilFormRequired">
+                                        <span class="asterisk">*</span>
+                                        <span class="small"> Required</span>
+                                        &nbsp;</div>
+                                    <div class="col-sm-6 ilFormCmds">
+                                        <input class="btn btn-default btn-sm" name="cmd[doStandardAuthentication]" value="Login" type="submit">
+                                    </div>
+                                </div>
+                                <!-- end of ilFormRow -->
+                            </div>
+                        </form>
+                        <p></p>
+                        <p class="ilStartupSection">
+                            <a class="il_ContainerItemCommand" href="https://test53.ilias.de/ilias.php?lang=en&amp;target=cat_31&amp;client_id=test53&amp;cmdClass=ilaccountregistrationgui&amp;cmdNode=7m:ir&amp;baseClass=ilStartUpGUI">New Account Registration</a>
+                            <a class="il_ContainerItemCommand" href="https://test53.ilias.de/index.php?client_id=test53&amp;lang=en">Public Area</a>
+                            <a class="il_ContainerItemCommand" href="https://test53.ilias.de/ilias.php?lang=en&amp;target=cat_31&amp;client_id=test53&amp;cmdClass=ilpasswordassistancegui&amp;cmdNode=7m:7l&amp;baseClass=ilStartUpGUI">Forgot your password?</a>
+                            <a class="il_ContainerItemCommand" href="https://test53.ilias.de/ilias.php?lang=en&amp;target=cat_31&amp;client_id=test53&amp;cmd=showUsernameAssistanceForm&amp;cmdClass=ilpasswordassistancegui&amp;cmdNode=7m:7l&amp;baseClass=ilStartUpGUI">Forgot your username?</a>
+                        </p>
+                        <p>
+                            <a class="il_ContainerItemCommand" href="https://test53.ilias.de/ilias.php?lang=en&amp;target=cat_31&amp;client_id=test53&amp;cmd=showTermsOfService&amp;cmdClass=ilstartupgui&amp;cmdNode=7m&amp;baseClass=ilStartUpGUI">Terms of Service</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="minheight"></div>
+    <footer id="ilFooter" class="ilFooter hidden-print">
+        <div class="container">
+            <div class="row">
+                <div class="ilFooterContainer">
+                    <bdo class="" dir="ltr">powered by ILIAS (v5.3.11 2018-11-20, PHP 7.0.32-0ubuntu0.16.04.1)</bdo> |
+                    <a href="https://test53.ilias.de/goto.php?target=impr_0&amp;client_id=test53" target="_blank">Legal Notice</a>
+                    <a href="https://test53.ilias.de/ilias.php?cmdClass=ilsystemsupportcontactsgui&amp;cmdNode=qm&amp;baseClass=ilsystemsupportcontactsgui">Contact Technical Support</a>
+                    <div id="devmodeBlock">
+                        <br>Memory Usage: 22260312 Bytes | 0.1107 Seconds
+                        <center>
+                            <br>
+                            <table border="0">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2">
+                                            <i>Controller History:</i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="small">- ilStartUpGUI</td>
+                                        <td class="small">execComm - showLoginPageOrStartupPage - Services/Init/classes/class.ilStartUpGUI.php</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </center>
+                        <a name="devinclsthd"></a>
+                        <br>
+                        <a>
+                            <i>Included Files</i>
+                            <span class="caret"></span>
+                        </a>
+                        <div id="devinclst" class="xsmall" style="display:none;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
