@@ -1,6 +1,4 @@
-<!-- drag_zmove used, e.g. in learnin modules to drag layout borders -->
-<div id="drag_zmove"></div>
-<div id="ilAll">
+<div id="fake">
     <div id="ilTopBar" class="ilTopBar">
         <div class="container">
             <div class="row">
